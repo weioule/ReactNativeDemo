@@ -403,7 +403,7 @@ class MainScreen extends Component {
                 };
         };
 
-    //配置路由，跳转的子页面
+    //配置路由，跳转的子页面(跳转子页面没来得及写，故用alert替代)
     const App = StackNavigator({
       Main: { screen: MainScreen },
       Details: { screen: DetailsScreen },
